@@ -24,7 +24,7 @@ body{
 .bux {
     /* outline: 2px solid red; */
     outline-offset: 2px;
-    width: 500px;
+    width: 700px;
     display: flex;
     height: auto;
     text-align: center;
@@ -35,19 +35,30 @@ body{
 
 .bux-item
 {
-    background-color: #2d3ed6;
+    /* background-color: #2d3ed6; */
+    background-color: #242527;
+    /* background-image: url("https://cdn.discordapp.com/avatars/220238224923164672/d69cbda49139ceabe0f8bb6f2e653aeb.png?size=4096"); */
+    background-size: contain;
     border: 1px solid rgb(153, 153, 153);
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     display:-webkit-flex;
     display:flex;
     justify-content: center;
     align-items: center;
     margin: 0;
     padding: 0;
-    border-radius: 50px;
+    border-radius: 10px;
 }
-
+.a {
+    background-image: url("https://cdn.discordapp.com/avatars/220238224923164672/d69cbda49139ceabe0f8bb6f2e653aeb.png?size=4096");
+}
+.b {
+    background-image: url("https://cdn.discordapp.com/avatars/143016625812013056/fdee2dc801b305fc13b6651555412bc6.png?size=4096");
+}
+.c {
+    background-image: url("https://cdn.discordapp.com/avatars/98065835859382272/3ddb10051c2a64cbf2db3d4cd4f9a3eb.png?size=4096");
+}
 a {
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -59,8 +70,27 @@ area {
     width: 100px;
     height: 100px;
     cursor: pointer;
-    border-radius: 50px;
+    border-radius: 10px;
 }
+
+.footer {
+    background-color: #1f1f1f;
+    width: 100%;
+    flex: 0 0 0px;
+    padding: 10px 0px;
+    text-align: right;
+    min-height: 18px;
+    position: fixed;
+    bottom: 0;
+    z-index:1;
+    left: 0;
+}
+
+.footer a {
+    position: relative;
+    right: 15px;
+}
+
 
 
 
